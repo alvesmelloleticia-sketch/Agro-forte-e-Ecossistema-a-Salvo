@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt Br"
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Agro Forte e Ecossistema a salvo </title>
+    <link rel =" stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="acessibilidade"></header>
+    <button id="btn-fonte" aria-label="Aumentar tamanho do texto">A+ Aumentar Fonte</button>
+    </header>
+    <main class="container"> 
+    <h1> Agro Forte e Ecossistema a salvo</h1>
+    p class="intro">O desafio de produzir alimentos em harmonia com a preservação da natureza.</p>
+
+    <!--Seção de Quiz Interativo-->
+    <section class="quiz-box">
+    <h2> Espaço Interativo</h2>
+    <!-- Contêiner para alternar as perguntas dinamicamente --> 
+     <div id="quiz-content">
+        <p>id="pergunta">Qual setor brasileiro você acha que mais emite gases de efeito estufa (polui)?</p>
+
+        <div class="opcoes">
+            <div class="opcoes">
+            <button class="opcao-btn" data-resposta="errado">Indústrias e Energia</button>
+            <button class="opcao-btn" data-resposta="errado">Transportes (Carros/Caminhões)</button>
+            <button class="opcao-btn" data-resposta="correto">Mudança no Uso da Terra (Desmatamento)</button>
+            <button class="opcao-btn" data-resposta="quase">Agropecuária direta (Metano do gado/fertilizantes)</button> 
+             </div>
+              </div>
+
+              <p id="resultado" aria-live="polite"></p>
+               <!-- Gráfico Visual em CSS (escondido no início) -->
+             <div id="grafico-container" class="escondido">
+            <h3>Emissões de Gases de Efeito Estufa no Brasil:</h3>
+             <div class="barra-grafico"><span class="label">Uso da Terra (Desmatamento):</span> <div class="barra terra" style="width: 48%">48%</div></div>
+             <div class="barra-grafico"><span class="label">Agropecuária direta:</span> <div class="barra agro" style="width: 27%">27%</div></div>
+             </div> <div class="barra-grafico"><span class="label">Energia e Transportes:</span> <div class="barra energia" style="width: 18%">18%</div></div>
+             </div> <div class="barra-grafico"><span class="label">Processos Industriais:</span> <div class="barra ind" style="width: 4%">4%</div></div>
+             </div> <div class="barra-grafico"><span class="label">Resíduos (Lixo):</span> <div class="barra lixo" style="width: 3%">3%</div></div>
+             </div>
+              <button id="btn-proxima" class="escondido">Próxima Pergunta ➔</button>
+              </section>
+              </main>
+              <script src="script.js"></script>
+              </body
+              
+
+            </html>

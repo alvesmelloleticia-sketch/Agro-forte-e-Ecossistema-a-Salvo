@@ -1,0 +1,135 @@
+body{
+      font-family: Arial, sans-serif;
+       background-color: #f0f7f4; 
+       color: #1b382b; margin: 0;
+       padding: 20px; line-height: 1.6; 
+
+    }
+
+      .acessibilidade { display: flex; 
+        justify-content: flex-end; 
+        margin-bottom: 20px;
+
+     }
+      
+     #btn-fonte { 
+        background-color: #1b382b; 
+        color: white; 
+        border: none; 
+        padding: 8px 15px; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        font-weight: bold;
+
+     } 
+     .container {
+         max-width: 600px; 
+         margin: 0 auto;
+             background: white; 
+             padding: 30px; 
+             border-radius: 12px; 
+             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+     }
+
+     h1, h2 { 
+        color: #2e6f40; 
+        text-align: center;
+
+     } 
+     .quiz-box { 
+        margin-top: 30px; 
+        padding: 20px; 
+        background-color: #e8f5e9;
+         border-radius: 8px;
+          border-left: 5px solid #2e6f40;
+
+     }
+
+    .opcoes { display: flex;
+         flex-direction: column; 
+         gap: 10px; 
+        margin-top: 15px
+
+    } 
+
+    .opcao-btn {
+         background-color: white; 
+         color: #1b382b; border: 2px solid #2e6f40; 
+         padding: 12px;
+          border-radius: 6px; 
+          font-size: 1rem; 
+          cursor: pointer; 
+          text-align: left; 
+          transition: 0.2s;
+
+        } 
+        .opcao-btn:hover, .opcao-btn:focus { 
+        background-color: #2e6f40; 
+        color: white;
+
+    } 
+    #resultado { 
+        margin-top: 15px; 
+        font-weight: bold; 
+        text-align: center; 
+        font-size: 1.1rem; 
+
+    } 
+       
+    /* Gráfico Visual em CSS */ 
+        #grafico-container {
+        margin-top: 25px; 
+        padding: 15px; background: white;
+        border-radius: 8px; 
+        box-shadow: inset 0 0 5px rgba(0,0,0,0.05); 
+     }
+
+     .barra-grafico {
+        margin-bottom: 12px; 
+    }
+     .label { 
+        display: block; 
+        font-size: 0.9rem; 
+        font-weight: bold; 
+        margin-bottom: 3px; 
+    } 
+    .barra {
+        color: white;
+        padding: 5px 10px; 
+        border-radius: 4px; 
+        font-size: 0.85rem; 
+        font-weight: bold; 
+        text-align: right; 
+        animation: crescer 1s ease-out;
+    }
+    
+/*Cores do Gráfico*/
+.terra { background-color: #a0522d; } /* Tons de terra */ 
+.agro { background-color: #2e6f40; } /* Verde agro */ 
+.energia { background-color: #d2691e; } .ind { background-color: #708090; } 
+.lixo { background-color: #556b2f; } 
+
+#btn-proxima { 
+         display: block; 
+         width: 100%; margin-top: 20px; 
+        background-color: #2e6f40; 
+        color: white;
+        padding: 12px;
+         border-radius: 6px; 
+         font-size: 1rem; 
+        font-weight: bold;
+         cursor: pointer;
+     } .escondido {
+         display: none !important; 
+    } 
+    /* Animação para o gráfico crescer de lado */ 
+    @keyframes crescer {
+         from { width: 0%; } 
+    } 
+    /* Acessibilidade */
+     .fonte-grande {font-size: 1.25rem; } 
+     .fonte-grande .opcao-btn,.fonte-grande .opção-bnt, .fonte-grande #btn-proxima { font-size: 1.2rem; }
+    
+    
+
